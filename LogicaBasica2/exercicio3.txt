@@ -1,0 +1,14 @@
+inicio Retangulo
+    variaveis: comprimento, largura
+    ler(comprimento, largura)
+    
+    funcao CalcularArea
+        area = comprimento * largura    
+        escrever("Área: ", area)
+    fim funcao
+    
+    funcao CalcularPerimetro
+        perimetro = (largura*2) + (comprimento*2)   
+        escrever("Perimetro: ", perimetro)
+    fim funcao
+fim Retangulo

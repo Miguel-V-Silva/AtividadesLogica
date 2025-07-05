@@ -1,0 +1,20 @@
+inicio ContaBancaria
+
+    variaveis: numeroConta, saldo
+    ler(numeroConta, saldo)
+
+    funcao Depositar
+        ler(valor)
+        saldo = saldo + valor
+    fim funcao
+
+    funcao Sacar
+        ler(valor)
+        se valor >= saldo então
+            escreva("Saldo Insuficiente")
+        senão
+            saldo = saldo - valor
+        fim se
+    fim funcao
+
+fim ContaBancaria

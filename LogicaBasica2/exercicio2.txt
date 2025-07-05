@@ -1,0 +1,9 @@
+inicio Circulo
+
+    variaveis: raio, area
+    ler(raio)
+
+    area = 3.14 * (raio*raio)
+
+    escreva("A área do circulo é de: ", area)    
+fim Circulo

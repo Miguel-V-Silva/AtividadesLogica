@@ -1,0 +1,8 @@
+inicio Veiculo
+    variaveis: modelo, capacidadeTanque, kmRodadosUltimaViagem, 
+    ler (modelo, capacidadeTanque, kmRodadosUltimaViagem)
+    funcao CalcularMedia()
+        media = capacidadeTanque/kmRodadosUltimaViagem
+        escreva("A média de gasolina gasta do modelo ", modelo," é de: ", media,"/km)
+    fim funcao
+fim Veiculo

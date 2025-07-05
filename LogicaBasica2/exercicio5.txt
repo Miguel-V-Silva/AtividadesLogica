@@ -1,0 +1,26 @@
+inicio Produto
+    variaveis: nome, preco, qtdEstoque
+
+    ler(nome, preco, qtdEstoque)
+
+    funcao AdicionarEstoque()
+        ler(valor)
+        qtdEstoque = qtdEstoque + valor
+        escreva("Adicionado ", valor,"x ", nome," do Estoque")
+    fim funcao
+
+    funcao RemoverEstoque()
+        ler(valor)
+        se valor > qtdEstoque entao
+            escreva("Quantidade Insuficiente")
+        senao
+            qtdEstoque = qtdEstoque - valor
+            escreva("Retirado ", valor,"x ", nome," do Estoque")
+        fim se
+    fim funcao
+
+    funcao CalcularEstoque()
+        valorEstoque = qtdEstoque * preco
+        escreva("O valor total do Estoque é de: ", valorEstoque)
+    fim funcao
+fim Produto
